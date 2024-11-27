@@ -1,4 +1,4 @@
-# Park-
+
 # 🚗 Park- v1.0
 
 > Revolutionizing vehicle management through smart technology integration
@@ -74,7 +74,7 @@ PARK- is not just another vehicle management system - it's your car's digital co
 ## 🏗️ Architecture Overview
 
 ```plaintext
-📁 CarTrackr Pro
+📁 Park-
 ├── 🎯 src/
 │   ├── 🔐 auth/
 │   ├── 📊 dashboard/
@@ -91,7 +91,7 @@ PARK- is not just another vehicle management system - it's your car's digital co
 
 ```bash
 # Clone the magic
-git clone https://github.com/yourusername/cartrackr.git
+git clone https://github.com/UDDITwork/park-.git
 
 # Summon dependencies
 npm install
@@ -131,9 +131,9 @@ Let's connect and build the future of vehicle management:
 ## 🌐 Digital Footprint
 
 ```plaintext
-🐦 Twitter: @cartrackr
-📸 Instagram: @cartrackr_pro
-💼 LinkedIn: CarTrackr-Pro
+🐦 Twitter: @UdditRise
+📸 Instagram: @Park_pro
+💼 LinkedIn: CarPark-Pro
 ```
 
 ## 🔮 Future Roadmap
@@ -149,7 +149,7 @@ Q4 2024: 🔄 Blockchain Integration
 
 ```plaintext
 🔓 MIT License
-Copyright (c) 2024 CarTrackr Pro
+Copyright (c) 2024 Park- Pro
 ```
 
 ---
