@@ -1,0 +1,14 @@
+{
+  "name": "car-service-app",
+  "version": "1.0.0",
+  "description": "Car service management application",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "nodemon server/index.js",
+    "client": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "author": "",
+  "license": "ISC"
+}
