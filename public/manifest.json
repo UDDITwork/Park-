@@ -1,1 +1,104 @@
- 
+{
+    "short_name": "CarService",
+    "name": "Car Service Management System",
+    "description": "Track and manage your car's maintenance, documents, and service history",
+    "icons": [
+      {
+        "src": "favicon.ico",
+        "sizes": "64x64",
+        "type": "image/x-icon"
+      },
+      {
+        "src": "logo192.png",
+        "type": "image/png",
+        "sizes": "192x192",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "logo384.png",
+        "type": "image/png",
+        "sizes": "384x384",
+        "purpose": "any maskable"
+      },
+      {
+        "src": "logo512.png",
+        "type": "image/png",
+        "sizes": "512x512",
+        "purpose": "any maskable"
+      }
+    ],
+    "start_url": ".",
+    "scope": "/",
+    "display": "standalone",
+    "theme_color": "#4F46E5",
+    "background_color": "#F9FAFB",
+    "orientation": "portrait",
+    "categories": ["auto", "utilities", "productivity"],
+    "shortcuts": [
+      {
+        "name": "View Dashboard",
+        "short_name": "Dashboard",
+        "description": "View your car's dashboard",
+        "url": "/dashboard",
+        "icons": [{ "src": "shortcuts/dashboard.png", "sizes": "96x96" }]
+      },
+      {
+        "name": "Check Documents",
+        "short_name": "Documents",
+        "description": "View car documents status",
+        "url": "/documents",
+        "icons": [{ "src": "shortcuts/documents.png", "sizes": "96x96" }]
+      },
+      {
+        "name": "Service History",
+        "short_name": "Services",
+        "description": "View service history",
+        "url": "/services",
+        "icons": [{ "src": "shortcuts/services.png", "sizes": "96x96" }]
+      }
+    ],
+    "screenshots": [
+      {
+        "src": "screenshots/dashboard.png",
+        "type": "image/png",
+        "sizes": "1280x720",
+        "form_factor": "wide"
+      },
+      {
+        "src": "screenshots/dashboard-mobile.png",
+        "type": "image/png",
+        "sizes": "750x1334",
+        "form_factor": "narrow"
+      }
+    ],
+    "related_applications": [
+      {
+        "platform": "play",
+        "url": "https://play.google.com/store/apps/details?id=com.yourcompany.carservice",
+        "id": "com.yourcompany.carservice"
+      }
+    ],
+    "prefer_related_applications": false,
+    "share_target": {
+      "action": "/share-target",
+      "method": "POST",
+      "enctype": "multipart/form-data",
+      "params": {
+        "title": "title",
+        "text": "text",
+        "url": "url",
+        "files": [
+          {
+            "name": "documents",
+            "accept": ["application/pdf", "image/*"]
+          }
+        ]
+      }
+    },
+    "protocol_handlers": [
+      {
+        "protocol": "web+carservice",
+        "url": "/protocol?type=%s"
+      }
+    ]
+  }
